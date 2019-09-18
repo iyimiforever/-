@@ -194,7 +194,6 @@ class View(object):
             self.__qizi_init("X")
             self.controller.computer_turn()
 
-class View(object):
     def __qizi_init(self, color):
         if color == "O":
             self.controller.model.people_set = {(self.controller.model.dim/2+1, self.controller.model.dim/2), (self.controller.model.dim/2, self.controller.model.dim/2+1)}
